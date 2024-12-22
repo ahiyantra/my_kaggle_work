@@ -1,0 +1,584 @@
+                                                                 Technology in Society 45 (2016) 83e90
+
+
+
+                                                           Contents lists available at ScienceDirect
+
+
+                                                             Technology in Society
+                                            journal homepage: www.elsevier.com/locate/techsoc
+
+
+
+
+The societal impact of commercial drones
+Bharat Rao*, Ashwin Goutham Gopi, Romana Maione
+NYU Tandon School of Engineering, Brooklyn, NY, USA
+
+
+
+
+a r t i c l e i n f o                                 a b s t r a c t
+
+Article history:                                      The use of drones or Unmanned Aerial Vehicles (UAVs) in commercial applications has the potential to
+Received 22 December 2015                             dramatically alter several industries, and, in the process, change our attitudes and behaviors regarding
+Received in revised form                              their impact on our daily lives. The emergence of drones challenges traditional notions of safety, security,
+26 February 2016
+                                                      privacy, ownership, liability, and regulation. With their ability to collect data and transport loads, drones
+Accepted 26 February 2016
+                                                      are re-shaping the way we think and feel about our physical environment. However, they also burdened
+                                                      with the perception as being surveillance equipment, and their commercial use has been criticizied by
+                                                      both individuals and activist organizations. In parallel, drones have been legitimized by regulations and
+Keywords:
+Drones
+                                                      licenses from federal agencies, are used by companies for surveying, inspecting, and imaging, and their
+UAVs                                                  technological development are driven by active communities of hobbyists and enthusiasts. This tension
+Commercial drones                                     presents unique challenges to their integration in the currently existing public, governmental and private
+Business models                                       infrastructure. In this paper, we will take a look at a few of these issues to understand how drones in-
+Privacy                                               ﬂuence society, and present reccomendations for practitioners, policy makers, and reseachers studying
+Security                                              this phenomenon.
+                                                                                                                          © 2016 Elsevier Ltd. All rights reserved.
+
+
+
+
+1. Introduction                                                                           Traditionally, discussions around UAVs have been centered on
+                                                                                      their use in military surveillance and active combat. Since their
+   The advent of new and emerging technologies has broad eco-                         emergence, the use of UAVs in combat zones has been heavily
+nomic, social and personal impacts [1]. Most commonly, they in-                       debated, and the conversation has been focused on their ethics,
+ﬂuence practice, the way we do things, perform tasks, achieve                         effectiveness, transparency and legality [4]. Despite multiple criti-
+goals, etc., while creating new capabilities and possibilities for ac-                cisms from human rights organizations, their judicial use has been
+tion [2]. The Internet, for instance, did not just allow us to share                  upheld by many of the world's governments. The ofﬁcial stance of
+information faster and cheaper; it completely changed the way we                      governments is that drones prevent causalities by providing accu-
+conceive of and use information. Usually, these changes are not just                  rate surveillance information and precision strike capabilities,
+related to the features of the technology, but also how we interpret                  while their opponents emphasize their inability to discern between
+their usability. Rather than the technology itself, it is our use of it               intended and unintended targets [5]. Increasing discussion has also
+that affects our perception, and thus our behavior [3]. In this paper,                focused on the use of drones over domestic airspace for the purpose
+we consider how an emerging technology, commercial unmanned                           of surveillance in the interest of national and local security. The
+aerial vehicles, more commonly known as drones, affects us by                         dialog closely mirrors that of combat drones, as it is the same issues
+challenging some of our societal values and beliefs. In particular, we                of ethics and privacy that shape the conversation [6]. This is
+argue that the way this technology is currently used has an impact                    particularly reﬂected in journals of law, ethics and technology
+on our conception of safety and security, privacy and ownership,                      policy as there been multiple articles that have described various
+individual and commercial liability, and the effectiveness and                        issues regarding the use of drones over domestic skies [7].
+process of governmental regulation. Drones are thus becoming                              In this paper, we focus on a related but slightly different phe-
+increasingly important in the ﬁelds of science, technology, and                       nomenon: the emergence of commercial drones. These drones are
+society.                                                                              designed, built and used by individuals, businesses, and organiza-
+                                                                                      tions. Though commercial drones owe much of their development
+                                                                                      to their military counterparts, most designs do not resemble the
+                                                                                      larger and more expensive surveillance drones [7]. Commercial
+ * Corresponding author.
+   E-mail address: brao123@gmail.com (B. Rao).                                        drones typically are built on a small platform, use cheap and easily
+
+http://dx.doi.org/10.1016/j.techsoc.2016.02.009
+0160-791X/© 2016 Elsevier Ltd. All rights reserved.
+84                                                  B. Rao et al. / Technology in Society 45 (2016) 83e90
+
+
+available components, and can lift only an average of 4 pounds [8].
+They emerge primarily from the work of UAV and quad copter
+enthusiasts, and their creations have historically not been the
+subject of scrutiny, usually due to their small numbers and lack of
+public interest.
+   Drones have the ability to carry multiple sensors, transmitters,
+and imaging equipment. As the use of drones continues to prolif-
+erate, they will impact industries ranging from entertainment to
+agriculture, from construction to delivery markets [4]. Their use in
+Hollywood ﬁlm production has already been legitimized through
+the creation and use of specialized high-deﬁnition imaging drones.
+Civilian UAVs have the potential of becoming a dominant infra-
+structural platform. Not only are they cheap and easily available,
+they can be deployed across many industries to perform complex,
+expensive and dangerous tasks [9]. Currently, short battery life and
+the lack of proper regulation (and enforcement) remain the two                   Fig. 1. Structure of a commercial drone.
+major limitations for their rapid adoption.                                      Source: http://wise.ece.cmu.edu/redmine/attachments/download/88/drk-parts.png
+   Several organizational and industrial standards associations
+have been created to either design drones and or to support their
+integration with existing infrastructure. They have developed new                primarily rooted in military research. Though it was initially
+                                                                                 conceived as a weaponized vehicle for the purpose of reducing the
+and unique market-focused applications and service platforms, and
+                                                                                 risk to human operators in hostile territory, the technology, capa-
+have inﬂuenced the social perception of this technology and its
+                                                                                 bilities, and use of UAVs have since evolved to include surveillance
+associated business models. This somewhat inevitable growth of
+                                                                                 and the collection of data [11]. The shift from exclusively military
+drone-based businesses seems destined to transform consumer
+                                                                                 drones to civilian application can be traced to the aftermath of
+behavior as well as reshape our notions freedom and responsibility
+                                                                                 Hurricane Katrina in 2005 [12]. In the broad rescue effort that
+[10]. In the following sections, we will look at how this technology
+                                                                                 followed, military drones equipped with accurate infrared cameras
+was developed, how it was adopted, and how it is used in individual
+                                                                                 were widely recognized as a useful ﬁeld asset. This led to the
+and commercial applications. It will provide an overview of what
+                                                                                 Federal Aviation Administration (FAA) ﬁrst issuing certiﬁcates to
+drones are, how they have come to be, and how they are perceived
+                                                                                 allow M7RQ series military drones to be used over civilian skies in
+and used today. We will then use discourse analysis to explore the
+                                                                                 2006 [13]. Since then, drones have entered the mainstream market
+impact that drones have had on various societal aspects, and pro-
+                                                                                 after years of development in the open source and maker com-
+vide recommendations for practitioners, policy makers, and re-
+                                                                                 munities. For example, 3DRobotics, one of the leading drones
+searchers studying this new phenomenon.
+                                                                                 manufacturer, began in 2009 with ArduPilot, an open source
+                                                                                 autopilot platform based on the Arduino [14]. Likewise, DJI and
+2. Background
+                                                                                 Parrot have open source hardware and software projects where a
+                                                                                 community of enthusiasts is invited to join the development pro-
+   The deﬁnition of UAVs, commonly known as drones, is rather
+                                                                                 cess. Though most of the development initially was in hardware,
+broad. This is understandable considering the wide range of con-
+                                                                                 there has also been a major improvement in autopilot software that
+ﬁgurations that exist. In practice, any aerial vehicle that does not
+                                                                                 allows autonomous ﬂight. An example is Openpilot, a project that
+rely on an on-board human operator for ﬂight, either autonomously
+                                                                                 aims to create universal autopilot software that can be used to ﬂy
+or remotely operated, is considered a UAV [9]. UAVs range in size
+                                                                                 civilian drones for humanitarian, academic, and hobbyist applica-
+from large military drones with a wingspan of nearly 200 feet to
+                                                                                 tions [15].
+commercially available inch-wide micro drones. Their ranges of
+                                                                                     The development of drones draws a parallel to that of other
+ﬂight vary, with some commercial drones being conﬁned to a few
+                                                                                 emerging technologies, like 3D printers. By creating and providing
+feet away around the operator to advanced military drones that can
+                                                                                 access to development tools, drone manufacturers have invited the
+ﬂy for over 17,000 miles without having to land. Likewise, there is a
+huge variation in their maximum ﬂight altitude, which can be                     open source community to their design process. Since the open
+                                                                                 source projects consisted of geographically distributed commu-
+anything from a few feet to a maximum of 65,000 feet [10].
+   Most commercially available drones today follow a similar                     nities, most of the designs were created digitally using modeling
+                                                                                 software. This made it easy to share, test, and modify the designs
+design (refer Fig. 1). The basic design has a microcontroller that acts
+as a ﬂight control, usually with four but up to eight motors and                 [16]. 3D printers also played an important role in this process as
+                                                                                 they allowed rapid prototyping and manufacture of drone com-
+propellers, a radio receiver, electronic speed control, and a battery,
+built on a light plastic or metal frame [11]. In addition, gyroscopes            ponents. In fact, the 3D ﬁles containing the design of certain parts
+                                                                                 are available online for anyone to download and print for free [17].
+and other sensors are added to increase the mid-air stability of the
+drone and a GPS device can be used for navigation. Most hobbyist                 The drone manufacturers utilize the passion and expertise of the
+                                                                                 community to create technology that best serves their need. The
+drones also carry a camera for aerial imagery, and a gimbal for
+                                                                                 availability of support, knowledge, and access to resources pro-
+added image stability. Additionally, other sensors can be attached,
+                                                                                 vided by the community has greatly helped in reducing the barriers
+though there is a trade off with increased functionality and weight
+                                                                                 to entry for new drone hobbyists and amateur developers [18].
+[11]. DJI, 3DRobotics and Parrot are some of the leading hardware
+                                                                                     In addition to manufacturers, drone-related services have
+manufacturers, and their sales includes both assembled drones and
+                                                                                 emerged as a new business in this area. These services take many
+drone components [10].
+                                                                                 forms, the simplest being the provision of drone assembly, main-
+                                                                                 tenance, and repair [19]. Rental services for drones have also pop-
+2.1. Development
+                                                                                 ped up in many cities, and they allow individuals and companies
+                                                                                 access to drones on an hourly or daily basis. These rental drones are
+     The development of unmanned aerial vehicles (UAV) is
+                                                   B. Rao et al. / Technology in Society 45 (2016) 83e90                                              85
+
+
+used for television and ﬁlm production, real estate marketing,                  operations, such as detecting wildlife.
+construction and inspection, architectural photography, and                         Many industries including law enforcement, movie and news
+photography for events [18]. The third type of services use drones              production, and construction are using drones instead of manned
+to perform surveillance and inspection on the behalf of their clients,          aircraft for their operations. Finally, there have been efforts to
+and is common in the agricultural industry. These companies own a               develop a delivery drone able to transport loads up to 5 pounds are
+ﬂeet of drones and are required to have an FAA license to ﬂy in                 widely known. During the last twenty years, the spread of the
+domestic air space [17]. The ﬁnal category of services is drone                 Internet as a commerce platform has allowed ﬁrms to gain more
+brokers, and they do not own drones at all. Rather, they act as a               visibility, reduce costs and the distribution footprint, and thus
+marketplace to connect people who own and operate drones to                     effectively leave the brick and mortar environment [9]. However,
+clients who usually only require aerial photographs and survey data             the logistics and distribution infrastructure is still dependent on
+[20].                                                                           ground and air transportation. Drones enable a new form of
+    The global expenditure on commercial drones in 2014 stood at                transportation and delivery and thus can completely change the
+$700 million, with DJI being the market leader, followed by Parrot              ground rules: Amazon Prime Air, DHL and Google are pioneers in
+and 3DRobotics [21]. It has been predicted that the market for                  exploring the new type of delivery mechanism. Amazon has
+drones is expected to increase to $1 billion by 2018, and $1.7 billion          declared that once the service will be fully deployed they will be
+by 2015 [10]. In addition, a fast growing segment is the DIY market,            able to deliver more than 80% of their goods through air [23].
+where the sales are primarily in components [21]. The market size                   Thus, we see that science, technology, politics, social move-
+of drone related services are also predicted to match that of hard-             ments, and commerce have shaped the design, development and
+ware sales within the next three years. The cost of these drones can            use of commercial drones. The argument can be made that in turn,
+range from a minimum of $50 for micro drones and a standard DJI                 drones too have had an effect on these aspects of society. The
+Phantom for $699, to the high-end Intuitive Aerial Aerigon that                 processes behind these changes have been widely explored in the
+costs up to $250,000 and is used to shoot high-resolution videos for            ﬁeld of science, technology, and society, and we now turn the lens
+ﬁlm production [10]. This wide price-range represents the diversity             to this particular emerging technology. In order to do so, we
+of capabilities in commercially available drones, and in the                    analyzed of the debate surrounding the development and use of
+following segment, we will take a look at the most common                       drones. In the subsequent sections, we present the methodology
+applications.                                                                   and ﬁndings of our study, followed by recommendations for prac-
+                                                                                titioners in this ﬁeld and researchers studying this phenomenon.
+2.2. Commercial applications
+
+    In the commercial space, drones are viewed as platforms for                 3. Methodology
+sensors of any kind, and they have been used primarily for sur-
+veillance and inspection [4]. Today, drones are being used to survey                Understanding a subject as extensive as the relationship be-
+crops, in search and rescue operations, to count wild life and keep             tween technology and society requires a suitably broad approach.
+track of animal population, in land surveying, to survey forest ﬁres,           Thus, we performed a discourse analysis of various documents in
+and to inspect oil pipelines, power lines and other remote infra-               order to investigate how various stakeholders perceived commer-
+structure [6]. Their ability to carry heavy equipment has been                  cial UAVs. Discourse is a comprehensive concept that includes any
+leveraged for spraying crops in large farms and delivering food,                practice by which individuals imbue reality with meaning [24].
+medical supplies and drugs to inaccessible locations [9].                       Though it is found in a wide range of forms (e.g. rituals, myths,
+    The most common application for consumer and hobbyist                       customs), we are interested in verbal discourse in textual form.
+drones is aerial photography. Consumer drones are currently                     Particularly, we looked at spontaneous discourse, which subjects
+available with in-built cameras or modular arrangements allowing                generate in their everyday lives. These take the form of articles,
+the installation of lightweight devices [4]. Under current FAA reg-             blogs, books, public records, announcements, reports, or indeed
+ulations, they also can ﬂy only up to 400 ft and typically require to           any text produced by an individual or organization [25]. Since in-
+be controlled in real time by a human pilot during take off and                 dividual and group action is largely guided by socially produced
+landing, as well as monitoring unexpected obstacles [9]. However,               and shared patterns, the knowledge of this inter subjectivity helps
+even with these restrictions, they offer an astonishingly wide range            us understand the social order [26].
+of application, offering solutions to different segments of the                     In the ﬁeld of commercial drones, we considered various
+market. Though the regulation speciﬁes that drones in domestic                  stakeholders such as governmental regulatory organizations, judi-
+airspace can only be ﬂown within line of sight, remote ﬂying is                 cial bodies, research institutes, public policy organizations, drone
+currently possible by using on-board cameras to stream live video               manufacturers, technology developers, service providers, news
+and sensor feedback to smartphones, laptops, or in-built screens on             organizations, insurance companies, non proﬁts acting in public
+controllers [6].                                                                interest, activists for privacy, activists for and against drones, public
+    Drone manufacturers, service providers, and platform in-                    and private establishment drone users, and individual users. We
+tegrators are seriously considering the business potential across               used an aggregate corpus of ninety-six articles published between
+these application types. The representation of drones in popular                2001 and 2015, accessed through academic and non-academic
+media has diversiﬁed from military drones to consumer ones, and                 databases and search-engines. We considered the text produced
+this reﬂects the growing demand in the market [6]. These would                  by these stakeholders as the object, and used content analysis to
+change the industry landscape in terms of safety, speed and                     make inferences. The text was then divided and coded based on the
+consequently costs. For example, drones are currently disrupting                origin, purpose, and content. Finally, the inferences were classiﬁed
+the use of helicopters by performing similar functions without                  into three schemes that represented the facets of society, and one
+endangering the people ﬂying in it while costing around a tenth of              that represented the governmental response. We present the
+the price [22]. The application of drones in large factories to                 ﬁndings in the following sections. Though it is not meant to be an
+transport payloads is being explored. In addition, thanks to the                exhaustive list of all of UAV's effects on contemporary society, it
+proximity at which the UAV can operate, and its limited noise                   provides a comprehensive overview of the observable social con-
+compared to a real aircraft, it can be deployed for stealthier                  structs that have been inﬂuenced by commercial drones.
+86                                                  B. Rao et al. / Technology in Society 45 (2016) 83e90
+
+
+4. Societal impact of commercial drones                                          though no cases have been reported thus far. In fact, currently
+                                                                                 available commercial drones lack the lift capacity to carry any
+    Based on our analysis of the discourse surrounding drones, we                equipment capable of creating damage, yet it is important to note
+identify three broad classes of issues that need further attention.              that their lift capacities have been improving over the last decade.
+The ﬁrst one is safety and security, and it relates to personal and
+property damage, as well as attacks on the drones themselves.                    4.2. Interference with commercial aviation
+Next, we will discuss the particular effects that drones have had on
+our conception of civilian airspace. Third is privacy and ownership,                 The Federal Aviation Authority (FAA) is the primary institution
+and this is in regards to the data collected by the drones. Fourth, we           responsible for the classiﬁcation of civilian air space within the
+discuss personal and commercial liability, which evokes questions                domestic boundaries of the United States. Currently, the usage of
+about the responsibility undertaken by drone operators. In the                   UAVs is mostly restricted to Class G airspace, which extends up to
+following sections, we will brieﬂy examine each of these issues in               600 feet from ground level. If maintaining radio communications
+more detail and delineate the broad concerns, as well as potential               with air trafﬁc controllers, they are allowed to ﬂy up to 18,000 feet.
+ways of addressing them. Finally, we will take a look at the attempts            However, there are a few restrictions on the type of aircraft, and
+by governments to regulate this industry, and the challenges they                rules for their operation. Only UAVs weighing less than 55 pounds
+have faced.                                                                      can be used, and though they do not require an airworthiness
+                                                                                 certiﬁcate, they must be provided safe in the case of inspections.
+4.1. Safety and security                                                         Commercial drones can only be ﬂown within the operator's line of
+                                                                                 sight, and they may not use the on-board cameras as their primary
+    Safety, the freedom from harm, and security, the freedom from                medium of sight. They are restricted to an airspeed of 100 mph, can
+fear of harm, are basic human rights that are guaranteed and pro-                only be ﬂown at daytime, and when there is a minimum of three
+tected by the constitutions of most nations. Currently, the use of               miles of weather visibility. Most importantly, they must yield the
+drones in civilian airspace has triggered concerns about the chal-               right-of-way to any other aircraft irrespective of whether it is
+lenges to these basic rights. These concerns are directed towards                manned or unmanned [23].
+both the technology and the user. Concerns regarding the tech-                       However, the operators do not always follow these regulations,
+nology center around the battery life lift capacity, airworthiness,              and this has resulted in multiple incidents involving UAVs and
+and reliability of the drones. The primary criticism with the ﬂying of           manned ﬂights over civilian air space. Though there have not yet
+commercial drones over public space is that small mistakes could                 been conﬁrmed cases of accidents, the FAA is currently investi-
+result in crashes that threaten the health, well-being and property              gating multiple cases of possible collisions. In the last two years,
+of the public. Furthermore, if they crash into public infrastructure             there have been almost 900 instances of uncertiﬁed UAVs ﬂying
+such as electricity poles, or wanders into airports and other pro-               over controlled airspaces without prior certiﬁcation. These cases
+tected airspaces, they could result in dangerous scenarios that put              were most often reported mid-ﬂight by commercial airlines and
+lives in danger.                                                                 general aviation pilots. Air trafﬁc controllers also reported spotting
+    These fears are not unfounded as there have been cases of such               drones over ﬂight paths and having to divert or ground aircraft.
+incidents that have been reported. Currently, there are a few issues             Multiple aviation authorities in are currently tackling these issues
+that challenge the security of drones in ﬂight. Drone navigation                 in a global scale, though there are currently very few initiatives that
+units are vulnerable to two different kinds of attacks on their GPS.             directly tackle the problem [27].
+‘Spooﬁng’ entails the sending of strong (but fake) GPS signals to-                   The FAA has two approaches to ensuring the safety of manned
+wards a drone, so that it is essentially “hijacked” instead of                   aircraft. The ﬁrst is a community outreach program to educate
+following its programmed directions. The drone can then be                       operators on the safety regulations and best practices while ﬂying
+manipulated to crash or be ﬂown to the attacker's location. This                 UAVs. This program is a joint effort by the Association for Un-
+would make it possible for a drone operator to be held responsible               manned Vehicle Systems International, the Small UAV Coalition,
+for the consequences of the “spoofed” drone since it is very difﬁcult            and the Academy of Model Aeronautics (AMA). They provide
+to prove the origin of the navigation signals.                                   guidelines for three categories of operators: recreational users,
+    It wasn't until 2014 that a successful spooﬁng attack was con-               businesses, and public entities. By translating the FAA regulations
+ducted against a drone, by a researcher at a Department of                       into actionable information, they hope to prevent unsafe practices
+Homeland Security facility. This controlled but sophisticated attack             that result in interference with commercial and general aviation
+was achieved with $1000 worth of equipment. For now, military                    ﬂights. The second approach is to enforce these rules by ﬁning and
+GPS uses encryption that renders it invulnerable to any known                    seizing drones from offending operators; especially those who
+spooﬁng attack, but still leaves it still susceptible to ‘jamming.’ In a         breach controlled airspaces. This strategy has already taken into
+jamming attack, the drone is overwhelmed with signals to the GPS                 effect; and in late 2015 the FAA ﬁned a startup company $1.9
+antenna. The encryption ensures that no fake signal is mistaken for              million for 65 violations of highly restricted airspaces [28].
+the true one, but the true signal cannot get through either. Unin-                   However, these approaches have been criticized for not effec-
+tended collisions seem to be unavoidable in such scenarios, espe-                tively preventing accidents, and there have been proposals from the
+cially in an unregulated environment. There have been several                    private sector to use technology to restrict UAV ﬂight within a ﬁve-
+incidents that have caused substantial losses without the owners of              mile radius of airports. The ﬁrst is the geo-fencing approach, where
+the devices being found [27].                                                    UAV manufacturers can build a feature into the GPS so that it
+    Aside from attacks on the navigation of the drone itself, there is           automatically prevents drones from entering restricted airspaces. It
+the security of the payload being carried: for example, one can                  also uses real-time data to prevent unlicensed ﬂight over large
+imagine several logistical challenges faced by drone delivery ser-               public gatherings such as sporting events and ﬂight shows. How-
+vices that are being envisioned (e.g. by Amazon). Likewise, the in-              ever, these can only be applied to more advanced UAVs and not to
+tentions of drone operators have been called into question, as                   simpler models that lack GPS. The second approach that is being
+currently, there is not regulation that controls the payload that is             tested is to install signal jammers around airports that can disable
+carried on the drones. Critics have speculated that drones could                 drones that enter controlled airspaces. However, this approach is
+theoretically be used to conduct attacks on a civilian population,               more expensive, and difﬁcult to implement, given that the
+                                                     B. Rao et al. / Technology in Society 45 (2016) 83e90                                           87
+
+
+infrastructure needs to be placed around a ﬁve mile radius of the                 remote device. Moreover, it is very difﬁcult to prove the intention
+airport [29]. In a later section, we will discuss the regulatory at-              behind the collection and use of data.
+tempts to ensure safety, and how users perceive it.                                   Currently existing FAA guidelines are not speciﬁc enough to
+                                                                                  dictate the coverage policy for personal and commercial liability,
+4.3. Privacy and ownership                                                        invasion of privacy, personal injury or property damage. Commer-
+                                                                                  cial liability should include ﬁnancial loss since many drone com-
+    Outside of the military and commercial environment, the in-                   panies are still in the startup phase. The property coverage also
+formation carried by cameras and sensors on drones operating in                   should include the processes of production, assembly and whole-
+the consumer space may be even more valuable to attackers and                     saling. Likewise, rather than just focusing on the ﬁnished product, it
+easier to target. If a private UAV is compromised, it is difﬁcult for the         is important to realize that most drones are modular and could be
+owner to detect the leak of information, and ensure the security of               comprised of independently sourced components. Even more
+the information as well as claims on ownership. These attacks                     confusion arises from the lack of a strict deﬁnition of a drone.
+aren't hypothetical, either: an investigation prompted by a handful               Currently, due to the broad range of standards and applications,
+of documented cases of militants in Iraq who apparently captured                  drones could be classiﬁed as quad copters, model aircraft, or even
+videos on their laptops revealed that a piece of $26 off-the-shelf                light aircraft. This lack of categorization makes it challenging to
+software was capable of intercepting feeds from US military                       properly assess the coverage policies since each class of aircraft has
+drones [28,29]. Currently, even the military isn't capable of securing            its own set of guidelines.
+its videos from such attacks, and therefore foolproof security is not
+yet expected of police forces, private ﬁrms, or consumers using                   5. Regulation e attempts and challenge
+drones.
+    This problem only gets more complicated as device endurance                       Regulations for military and civilian drones application differ
+improves and their costs decrease, giving the opportunity to any                  considerably. Military drones, which have existed for a while, have
+individual engaging in episodic or persistent surveillance at the                 regulations developed over time to cover only a very limited set of
+expenses of others' “reasonable expectation of privacy”. As a matter              activities in a speciﬁc and controlled airspace. The broad applica-
+of fact, the traditional notion of privacy itself is under threat: “the           tions of civilian drones, and their relatively small impact if
+state in which one is not observed or disturbed by other people”                  compromised, have appreciably clogged and therefore delayed
+will have to be defended not only from obvious and detectable                     regulations related to the commercial and private environment.
+threats such as people nearby or objects on the ground, but also                  This effect has been exacerbated by the open source development
+from quiet and distant ﬂying objects as well. This also raises the                of the technology, which makes it difﬁcult to keep track of the
+issue of airspace over private property and standards and expec-                  changes. Thus, as often happens, technology already far outpaced
+tations for its protection. In a public space such as a park or on a              the regulatory process. This has implications for the widespread
+street, the reasonable expectation of privacy does not apply.                     acceptance and adoption of drones as a viable platform.
+Therefore, since a person is present in a public place, there is also                 For the private use of drones there are two key factors that
+not legal basis to make a claim of a breach of their privacy.                     concern people: privacy and safety. While drone-ﬁlmed videos and
+    The same argument also extends up to an extent, to private                    footage are positively portrayed by the popular media and are a
+property that is visible from public spaces. However, these laws                  source of entertainment on the Internet, they are also fostering an
+assume that sight is conﬁned to the eye-level. Drones disrupt the                 active debate about their lawfulness and questionable behavior.
+expectations of reasonable privacy since they are operated in a                   Since there is no clear regulation to follow, drones have been freely
+public place, yet can capture images and sound from that aren't                   hovering in public places, causing discomfort and controversial
+traditionally available to the public. This gap in the law allows for             reactions by the oversight agencies involved [30,31]. The use of
+the possibility of unwarranted surveillance without fear of reper-                drones is not yet regulated in order to insure individual property
+cussion. Current privacy laws stat that it is illegal to record the               rights and safety. There is more than one stakeholder involved in
+interior of a home or a privately owned building, even if the camera              this process: the government at the federal, state and city/town
+is placed outside. This creates uncertainty since even if the drone is            levels, drone manufacturers, software vendors, as well as end-users
+being ﬂown within eyesight and over the private property of the                   all have their own motivations. Typically, as in other emerging
+operator; there is the possibility of being in violation of privacy laws          technology-based products, the customers want choice and access,
+since it provides a monitoring capability that is not yet legitimated             businesses want to manufacture and sell products unhindered
+by the law.                                                                       while meeting customer needs, and the regulatory and law
+                                                                                  enforcement agencies need to have conﬁdence in the regulations
+4.4. Personal and commercial liability                                            themselves as well as their ability to enforce violations.
+                                                                                      Both governmental and business entities are actively working to
+   Drones now face complex coverage and liability issues in                       improve the technology in order to safely integrate drones. In 2012,
+regards to insuring their commercial use. These problems arise                    Congress passed the FAA Modernization and Reform Act, with a
+from the complexity of various factors such as the different types of             view to formulating guidelines for airspace use by civilian Drones.
+accidents, procedures for air control, and uncertain privacy laws.                In February 2015, the FAA consequently proposed a simple approval
+Insurance companies are yet to develop insurance plans for UAVs,                  process that any ﬁrm interested to ﬂy drones for commercial pur-
+and there is very little guidelines or precedent to follow. Personal              poses could follow. This proposed process would be necessary for
+injury and the invasion of privacy are the most important issues,                 the deployment of any UAV under 55 pounds, and operators would
+considering that many UAVs ﬂy over habited regions. In order to                   be required to pass the same written exam (that had a validity of
+judge a case of personal injury, insurance companies need access to               two years) vetted by the Transportation Security Administration for
+a vast amount of information. They need the location of take off and              private pilots. These pilots would need to obtain a certiﬁcate from
+landing, ﬂight path, intent of ﬂight, altitude, etc. Likewise, for                the agency and respect the safety requirements [32,33] of ﬂying
+breach of privacy, the insurance companies need to take into                      below 500 feet during daytime, within eyesight, away from private
+consideration the drone's ability to collect a massive quantity of                property, and should remain least 5 miles from the closest airport.
+data, which can either be stored on board or transmitted to a                         The Federal Communication Commission (FCC) and the
+88                                                   B. Rao et al. / Technology in Society 45 (2016) 83e90
+
+
+International Bureau together with the Public Safety and Homeland                 about drones and their operators, the extent and effectiveness of
+Security Bureau have been putting efforts to secure GPS Protection                the sanctions, the vagueness of deﬁnitions, the privacy and usage of
+and improve Receiver Performance. As of now, drone makers have                    the collected information, and the legitimacy of a federal organi-
+carried out the main improvements, as they seek to improve the                    zation's authority over domestic activities. As of the February of
+wireless link between drones and operators and to enable the de-                  2016, over 342,000 individuals have registered; primarily to avoid
+vices to sense and avoid obstacles automatically. For example, DJI                the large ﬁnes proposed by the FAA.
+Innovations, a leading drone-maker, has already implemented in its
+latest product design a GPS-based localization that would prevent                 6. Discussion and implications
+the aircraft from ﬂying over 500 feet, and from getting into
+restricted airspace, e.g., around and over airports. However, the                     When it comes to drones is it possible to divide the population
+technology has proliferated into mass use and it is not clear that                into two main categories: those who can be deﬁned as UAVs en-
+these rules will completely prevent accidents and close calls.                    thusiasts, looking forward to use them either for private or com-
+Washington-based DroneShield LLC has installed about 200 of its                   mercial use; and those who believe these devices are a threat - with
+audio-based detection systems worldwide over the past 18 months,                  the potential of endangering their freedoms as well as daily activ-
+including around prisons, government buildings and power plants.                  ities. Despite the huge improvements that drones can provide, the
+Resilient Solutions Ltd., in Alexandria, Va., is working with a Eu-               public is skeptical: a recent surveys on a sample of 2405 US citizen's
+ropean defense contractor to develop a sophisticated system that                  shows that 42% disapprove private ownership of drones, mostly
+can detect and track a drone and identify whether it is a threat [34].            because of privacy concerns [42]. Many have questioned the recent
+    From a privacy perspective, the issue is intricate since the line             FAA rules on commercial drones, suggesting that rules will
+between private and public can no longer be deﬁned by physical                    adversely affect small drone based businesses, as well as question
+boundaries. Furthermore, there are concerns over effect on sover-                 their clarity. The lag between meaningful and enforceable regula-
+eignty since a commercial drone ﬂown over international airspace                  tion compared to the pace of development of new devices, is
+or the airspace of another country, could be viewed as a threat to                creating more confusion. For example, in the aforementioned sur-
+national security. The International Civil Aviation Organization                  vey, most of the respondent are basically unaware of existing
+explicitly empowers individual national agencies to set their own                 regulation (30% of them believe FAA is not regulating class G
+regulations [35]. In Europe, the European Aviation Safety Agency                  airspace, which is below 1200 feet), are confused about which
+(EASA) is contemplating the possibility of shifting the responsibility            certiﬁcate is needed to operate a drone (the Certiﬁcate of Autho-
+of regulation from each Member State to a co-regulatory approach                  rization COA, Exemption, Waiver etc. [43]), and what those certif-
+that would reduce resource constraints, but at the same time would                icates imply, since the rules does not cover all potential situations.
+increase the risk of backlash caused by the curtailment of                            Forty-seven percent of the companies surveyed in the report
+enforcement powers and stakeholder engagement [36].                               state they have been operating in Class G airspace even without the
+    In the US, the Association for Unmanned Vehicle Systems In-                   regulation in place, which means that potentially they are already
+ternational, which represents the UAV industry, recently developed                exposing civilian to the threats they would like to avoid, and 62%
+and released a “Code of Conduct” e generic rules in order to                      are currently ﬂying without commercial liability insurance for their
+observe current privacy and liberty rights and to avoid accidents e               UAVs. This also raises questions about the potential implications for
+but it is not clear how these rules will be enforced [37]. Similarly,             the insurance industry. Currently, there are not policies available,
+the FAA has been trying to create separate, and less-demanding                    though they are in the process of being developed to cover such
+rules for unmanned aircraft weighing less than ﬁve pounds. The                    contingencies. Another 47% of respondents state that they are
+proposal explicitly notes that agency ofﬁcials have the right to                  postponing the creation of jobs since they are not sure whether the
+pursue hobbyists and other recreational users if they are found to                regulation would make the industry favorable or not, and 61%
+operate devices in a “reckless manner”. Currently, these rules affect             would be willing not to start their operations, or to shut down the
+recreational use of drones, the use of which is already permitted as              one that already exists if the regulations are perceived to be unfa-
+long as users obey safe-operating requirements, and hence they fail               vorable [44].
+to deal with privacy issues. The FAA has never handled privacy                        In fact, there is some evidence that delays in developing a clear
+concerns before, and the rapid adoption of civilian drones is chal-               framework have prompted several private manned aircraft
+lenging the organization. This challenge has hampered the FAA for                 frequently operate without ﬂight plans around working areas to
+years and is evident in their constant postponement of a deﬁnitive                capture images above sites without asking for approval prior to
+ruling [38,39]. The Government Accountability Ofﬁce reported a                    taking off, even if those operations are currently in violation of FAA
+lack of “consensus of opinion”, stating that the FAA will not create              policy. Thus, on one hand private users are not at all regulated and
+new rules before 2017 [40].                                                       can create potential safety issues while on the other hand com-
+    In December 2015, the FAA passed a federal law requiring all                  mercial development is criminalized [45]. The ability to enter pri-
+drones weighing over 250 g and their users to be registered online                vate property undetected and to record information that can be
+[41]. Taking effect on the 21st of that month, the law was justiﬁed in            streamed live originates signiﬁcant opportunities for privacy
+the interest of privacy and public safety and security as they re-                breaches. Generally speaking, the risk of UAV usage as every other
+ported 1133 cases of unsafe use. The law is posited to counteract a               technology for illegal activities is unavoidable. However, since
+“market failure” which includes the increasing number of UAVs,                    existing guidelines and rules overlook the possibility of a hard-to-
+possibilities of technical failure, and the lack of users' experience. It         notice ﬂying camera widely available to masses, they also in-
+is currently applicable to individuals and not companies, thus only               crease the potential for misuse.
+affecting recreational users and hobbyists. As a result, a user                       As mentioned above, many countries have already started the
+without a certiﬁcate or a ﬂying an unregistered drone, even on their              process to adapt their regulations to address safety and technical
+own property, would result in civil and criminal sanctions including              issues. Nevertheless those arrangements do not engage in ﬁxing the
+ﬁnes and imprisonment. Though it is not possible to predict if this               most imperative problem created by drone technology: faulty pri-
+law would effectively reduce the number of accidents, commu-                      vacy and surveillance regulations. Even Australia, which is one of
+nities of drones enthusiasts and activism groups have already                     the pioneers of the use of drones for commercial activities, has
+denounced it. These criticisms challenge the FAA's assumptions                    recently pointed out the inappropriateness of its Commonwealth
+                                                            B. Rao et al. / Technology in Society 45 (2016) 83e90                                                         89
+
+Table 1
+Challenges and solutions.
+
+ Challenges      Issues                           Current approach                  Limitations                               Solutions
+
+ Safety          Airworthiness of UAV             Inspection and Certiﬁcation       Motivates, but does not ensure safety Leverage hobbyist communities to develop
+                                                                                                                          maintenance support
+                 Unsafe practices                 Voluntary education on general    Does not address individual users and Work with open source developers to create
+                                                  safety tips                       UAV systems                           educational simulations
+ Security        Jamming and Spooﬁng              Addressed under property law      Leaves UAVs open to manipulation Collaborate with manufacturers to encrypt
+                                                                                                                          signals
+                 Malicious usage                  Post hoc legal action             Difﬁculty in proving intent           Record ﬂight data
+ Airspace        Lack of awareness                Community outreach programs       Difﬁcult to measure effectiveness     Build awareness during set-up process
+    interference Restricting ﬂight                Signal Jammers                    Expensive to implement                Develop in-built geo-fencing
+ Privacy         Blurring of private and public   Reasonable expectation of         Limited to tele-imaging systems       Incorporate on-board cameras into tele-viewing
+                 space                            privacy
+                 Flight over private property     Addressed under trespassing       Does not consider violation of            Create local residential no-ﬂy zones
+                                                  laws                              airspace
+ Ownership of    Illegitimate surveillance        Post hoc investigation            Vagueness in privacy laws regarding       Consider remote viewing in privacy laws
+   data                                                                             UAVs
+                 Collection, storage, and usage   Addressed under intrusion of      Difﬁculty in identifying instances of     Create systems to report misuse
+                 of private data                  solitude torts                    privacy breaches
+ Liability       Determination of liability       Traditional investigation         Unavailability of relevant                Usage of ﬂight data
+                                                                                    information
+                 Estimation of damages            Addressed under injury torts      Lack of clear guidelines regarding        Extend FAA liability regulation to UAVs
+                                                                                    UAVs
+ Regulation      Administration of rules          Coordinated by local law          Disjoint local, state, and federal laws   Create concise and contextual framework
+                                                  enforcement agencies
+                 Managing registrations           Threat of legal action if         Issues with privacy and usage of data Encrypt data and disclose release requests
+                                                  unregistered
+
+
+
+
+Privacy Act, that does not cover collection and use of personal in-                      and lag, cultural perceptions or misconceptions of what drones are
+formation by private citizens and small businesses [46]. Further-                        and what they can do, as well as signiﬁcant challenges that can be
+more at this time, traditional enforcement appears weak and                              thrown up by a more rapid proliferation of drones. As the popula-
+expensive and new infrastructures need to be established. It is                          tion of civilian drones and their users expands globally, the risk of
+paramount to ﬁrst update the current deﬁnition of privacy and                            accidents both digital and physical are destined to multiply. The
+ﬁnds new ways to guarantee its protection balancing freedom of                           Internet revolutionized personal computing thanks to a conﬂuence
+expression, open justice, public safety and national security. Given                     of technical, social, regulatory and cultural trends and efforts. The
+the current fuzziness of directions, businesses will face difﬁculties                    future success of civilian drones depends on the ability of varied
+in lawfully developing hardware and software solutions to exploit                        stakeholders to reconsider how this emerging technology platform
+the huge industry potential. Another critical aspect of integrating                      can be best harnessed to serve the broad interests of society.
+the UAVs in the National Airspace System is law enforcement,
+which is currently ineffective and expensive.
+    Untrustworthiness creates huge resistance to new technologies:                       References
+a way to sensitize masses to drone misuse consequences is to assign
+                                                                                          [1] W.E. Bijker, J. Law, Shaping Technology/Building Society: Studies in Socio-
+accountability and liability. As for now in the US, only broad general                        technical Change, MIT Press, 1992.
+guidelines have been provided for evidence collection and oper-                           [2] H. Mackay, G. Gillespie, Extending the social shaping of technology approach:
+ator/witness identiﬁcation and interviews in the case of UAV-                                 ideology and appropriation, Soc. Stud. Sci. 22 (4) (1992) 685e716.
+                                                                                          [3] U. Schultze, W.J. Orlikowski, A practice perspective on technology-mediated
+related accidents [47]. However, since UAV can cause physical                                 network relations: the use of internet-based self-serve technologies, Inf.
+damages as cars do, it seems legitimate to hypothesize the intro-                             Syst. Res. 15 (1) (2004) 87e106.
+duction of compulsory speciﬁc insurance plans that would create a                         [4] P. Finn, Domestic Use of Aerial Drones by Law Enforcement Likely to Prompt
+                                                                                              Privacy Debate, Washington Post, 2011, p. 22.
+registry of devices to link each and every sold one to its owner to                       [5] C. Oudes, W. Zwijnenburg, Does Unmanned Make Unacceptable? Exploring
+help to assign responsibilities for illegal activities. Furthermore, as                       the Debate on Using Drones and Robots in Warfare, IKV Pax Christi, 2011.
+for now each jurisdiction is empowered to determine its own rules                         [6] R.L. Finn, D. Wright, Unmanned aircraft systems: surveillance, ethics and
+                                                                                              privacy in civil applications, Comput. Law Secur. Rev. 28 (2) (2012) 184e194.
+they will eventually cause inconsistency across contiguous regions
+                                                                                          [7] R.M. Thompson, Drones in Domestic Surveillance Operations: Fourth
+and Countries. Ideally, standards have to be set throughout                                   Amendment Implications and Legislative Responses, Congressional Research
+governmental and private organizations as well as across Countries.                           Service, Library of Congress, 2012, September.
+                                                                                          [8] R. Austin, Unmanned Aircraft Systems: UAVS Design, Development and
+Also, in order to be valid to protect the interest of privacy as long as
+                                                                                              Deployment vol. 54, John Wiley & Sons, 2011.
+possible they should not be strictly related to the single technology.                    [9] L.R. Newcome, Unmanned Aviation: a Brief History of Unmanned Aerial Ve-
+Some directions on how the aforementioned goals can be achieved                               hicles, AIAA, 2004.
+are summarized in Table 1.                                                               [10] S. O'Brien, Drone Startups Swoop Up Millions, 2015, January 7. Retrieved
+                                                                                              October 14, 2015, from, http://money.cnn.com/2015/01/07/technology/ghost-
+                                                                                              drone/.
+                                                                                         [11] M.L. Cummings, S. Bruni, S. Mercier, P.J. Mitchell, Automation Architecture for
+7. Contributions & conclusion                                                                 Single Operator, Multiple UAV Command and Control, Massachusetts Inst Of
+                                                                                              Tech Cambridge, 2007.
+                                                                                         [12] A. Robinson, FAA Authorizes Predators to Seek Survivors, US Air Force Ar-
+   The rapid evolution of drones for civilian applications has                                chives, 2006.
+created several challenges: regulatory, safety, privacy, security, and                   [13] J. Craighead, R. Murphy, J. Burke, B. Goldiez, A survey of commercial & open
+the uncertain landscape for new business models. The paper shows                              source unmanned vehicle simulators, in: Robotics and Automation, 2007 IEEE
+                                                                                              International Conference on, IEEE, 2007, April, pp. 852e857.
+that there are several bottlenecks that are hampering more rapid                         [14] M.P. Deseilligny, I. Clery, Apero, an open source bundle adjusment software
+adoption of drones, including regulatory and enforcement clarity                              for automatic calibration and orientation of set of images. ISPRS-International
+90                                                             B. Rao et al. / Technology in Society 45 (2016) 83e90
+
+     Archives of the Photogrammetry, Remote Sens. Spat. Inf. Sci. 38 (2011) 5.                   i.
+[15] H. Chao, Y. Cao, Y. Chen, Autopilots for small unmanned aerial vehicles: a             [32] J. Nicas, A. Pasztor, FAA Proposes Rules to Allow Commercial Drone Flights in
+     survey, Int. J. Control, Autom. Syst. 8 (1) (2010) 36e44.                                   U.S, 2015, February 15. Retrieved October 14, 2015, from, http://www.wsj.
+[16] P. Marks, 3D printing takes off with the world's ﬁrst printed plane, New Sci.               com/articles/obama-issues-privacy-rules-for-government-drones-in-u-s-
+     211 (2823) (2011) 17e18.                                                                    1424015402.
+[17] N.A. Ahmed, J.R. Page, Manufacture of an unmanned aerial vehicle (UAV) for             [33] FAA, Small UAS Notice of Proposed Rulemaking (NPRM), 2015, February 15.
+     advanced project design using 3D printing technology, Appl. Mech. Mater. 397                Retrieved October 14, 2015, from, https://www.faa.gov/uas/nprm/.
+     (2013, November) 970e980.                                                              [34] J. Nicas, Criminals, Terrorists Find Uses for Drones, Raising Concerns, 2015,
+[18] I. Maza, K. Kondak, M. Bernard, A. Ollero, Multi-UAV cooperation and control                January 28. Retrieved October 14, 2015, from, http://www.wsj.com/articles/
+     for load transportation and deployment, J. Intell. Robot. Syst. 57 (1e4) (2010)             criminals-terrorists-ﬁnd-uses-for-drones-raising-concerns-1422494268.
+     417e449.                                                                               [35] R. Clarke, L.B. Moses, The regulation of civilian drones' impacts on public
+[19] J.T.K. Ping, A.E. Ling, T.J. Quan, C.Y. Dat, Generic unmanned aerial vehicle                safety, Comput. Law Secur. Rev. 30 (3) (2014) 263e285.
+     (UAV) for civilian application-A feasibility assessment and market survey on           [36] Association for Unmanned Vehicle Systems International, Code of Conduct,
+     civilian application for aerial imaging, in: Sustainable Utilization and Devel-             2015. Retrieved October 14, 2015, from, http://www.auvsi.org/conduct.
+     opment in Engineering and Technology (STUDENT), 2012 IEEE Conference on,               [37] S. Beasley, A. Levin, FAA Fails to Meet 2014 Goal for Proposed Drone Regu-
+     IEEE, 2012, October, pp. 289e294.                                                           lations, 2014, December 31. Retrieved October 14, 2015, from, http://www.
+[20] C. Jacques, Led by Agriculture, Market for Commercial Drones Will Reach $1.7                bloomberg.com/news/articles/2014-12-31/faa-fails-to-meet-2014-goal-for-
+     Billion in 2025, 2014, October 14. Retrieved October 14, 2015, from, http://                proposed-drone-regulations.
+     www.luxresearchinc.com/news-and-events/press-releases/read/led-                        [38] C. Whitlock, FAA Will Miss Deadline to Integrate Drones in U.S. Skies, 2014,
+     agriculture-market-commercial-drones-will-reach-17-billion.                                 June 30. Retrieved October 14, 2015, from, https://www.washingtonpost.com/
+[21] V. Klochkov, A. Nikitova, A simpliﬁed approach to economic efﬁciency analysis               world/national-security/faa-will-miss-deadline-to-integrate-drones-in-us-
+     of UAV pipeline surveillance, Transp. Eng. 27 (2008) 172e180.                               skies-report-says/2014/06/30/fd58e8e2-007f-11e4-b8ff-89afd3fad6bd_story.
+[22] P. Paganini, Privacy and Security Issues for the Usage of Civil DroneseInfoSec              html.
+     Resources, 2014, April 25. Retrieved October 14, 2015, from, http://resources.         [39] A.E. Holton, S. Lawson, C. Love, Unmanned aerial vehicles: opportunities,
+     infosecinstitute.com/privacy-security-issues-usage-civil-drones/.                           barriers, and the future of “drone journalism”, J. Pract. (2014) 1e17 (ahead-of-
+[23] M. Lega, A.F. Accardo, Index of risk and safety objectives for civil UAVs, in:              print).
+     AIAA 2nd “Unmanned Unlimited” Systems, Technologies, and Oper-                         [40] FAA.gov, Unmanned Aircraft Systems, 2015. Retrieved December 16, 2015,
+     ationsdaerospace, Land, and Sea Conference and Workshop & Exhibit, San                      from, https://www.faa.gov/uas/.
+     Diego (CA)eUSA, 2003, September, pp. 15e18.                                            [41] FAA.gov, Unmanned Aircraft Systems (UAS) Registration, N.p, 2015. Web. 16
+[24] J.P. Gee, An Introduction to Discourse Analysis: Theory and Method, Rout-                   Dec. 2015.
+     ledge, 2014.                                                                           [42] Reuters Ipsos, Ipsos/Reuters Poll: Drones, 2015, February 5. Retrieved October
+[25] M.W. Jørgensen, L.J. Phillips, Discourse Analysis as Theory and Method, Sage,               14, 2015, from, http://www.ipsos-na.com/news-polls/pressrelease.aspx?
+     2002.                                                                                       id¼6749.
+[26] A. Schutz, On the methodology of the social sciences, Probl. Soc. Real. (1962)         [43] J. Rupprecht, Drones: Their Many Civilian Uses and the U.S. Laws Surrounding
+     3e47.                                                                                       Them, 2015.
+[27] M.J. Boyle, The race for drones, Orbis 59 (1) (2015) 76e94.                            [44] S. Anand, Domestic use of unmanned aircraft systems: an evaluation of policy
+[28] Chow, E., Cuadra, A., & Whitlock, C. (2014, June 20). Retrieved October 8, 2015,            constraints and the role of industry consensus standards, ASTM Stand. News
+     from https://www.uavdach.org/News/Missbrauch/2014-06-20Fallen from the                      35 (9) (2007) 30.
+     skies_ drone crashes database - Washington Post.pdf.                                   [45] G. Crovitz, The Grinch Who Stole… Drones, 2014, December 28. Retrieved
+[29] A. Cuadra, C. Whitlock, How Drones Are Controlled, 2014, June 20. Retrieved                 October 14, 2015, from, http://www.wsj.com/articles/l-gordon-crovitz-the-
+     October 14, 2015, from, http://www.washingtonpost.com/wp-srv/special/                       grinch-who-stole-drones-1419811476.
+     national/drone-crashes/how-drones-work/.                                               [46] G. Christensen, Eyes in the sky: Inquiry into Drones and the Regulation of Air
+[30] J. Serna, As hobby drone use increases, so do concerns about privacy, security,             Safety and Privacy, 2014. Australia's House of Representatives Standing
+     2014, June 21. Retrieved October 14, 2015, from, http://www.latimes.com/                    Commitee on Social Policy.
+     local/la-me-drone-hobbyist-20140622-story.html.                                        [47] FAA, Law Enforcement Guidance for Suspected Unauthorized Uas Operations,
+[31] C. Schlag, New privacy battle: how the expanding use of drones continues to                 2014. Retrieved October 14, 2015, from: https://www.faa.gov/uas/
+     erode our concept of privacy and privacy rights, Pitt. J. Tech. L. Pol'y 13 (2012)          regulations_policies/media/FAA_UAS-PO_LEA_Guidance.pdf.
+
